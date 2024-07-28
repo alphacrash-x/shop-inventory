@@ -1,13 +1,13 @@
-package com.alphacrash.shop;
+package com.alphacrash.inventory;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ShopApplication {
+public class InventoryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ShopApplication.class, args);
+		SpringApplication.run(InventoryApplication.class, args);
 	}
 
 }
